@@ -19,8 +19,6 @@ The Jared Wilcurt's strict ESLint rules for ESM imports/exports.
       }
     ];
     ```
-1. You will also need to create an empty `.eslintrc.cjs` file in the root of your project, due to a [known bug](https://github.com/import-js/eslint-plugin-import/issues/3079)
-
 
 
 ## Vite aliases
@@ -33,8 +31,8 @@ You may want to add in an import resolver if you use **Vite** for aliasing.
 // eslint.config.js
 import path from 'node:path';
 
-import importPlugin from 'eslint-plugin-import';
-import tjwImport from 'eslint-config-tjw-import';
+import importPlugin from 'eslint-plugin-import-x';
+import tjwImport from 'eslint-config-tjw-import-x';
 
 const __dirname = import.meta.dirname;
 
@@ -44,7 +42,7 @@ export default [
   {
     // Project specific rules/settings
     settings: {
-      'import/resolver': {
+      'import-x/resolver': {
         vite: {
           viteConfig: {
             resolve: {

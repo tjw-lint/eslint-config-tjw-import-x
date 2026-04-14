@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-tjw-import-x",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "description": "The Jared Wilcurt's JS Import Linting rules",
   "author": "The Jared Wilcurt",
