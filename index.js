@@ -98,6 +98,7 @@ export default {
       'error',
       {
         missingExports: false,
+        suppressMissingFileEnumeratorAPIWarning: true,
         unusedExports: true
       }
     ],
