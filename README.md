@@ -6,6 +6,9 @@ The Jared Wilcurt's strict ESLint rules for ESM imports/exports.
 ## Using this
 
 1. `npm install --save-dev eslint@10 eslint-plugin-import-x@4 eslint-config-tjw-import-x@latest`
+   * **Requires:**
+      * `eslint` >=10.0.0
+      * `eslint-plugin-import-x` >=4.16.2
 1. In your `eslint.config.js`:
     ```js
     import importPlugin from 'eslint-plugin-import-x';
